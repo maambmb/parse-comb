@@ -90,3 +90,6 @@ ENV/
 
 # node stuff
 node_modules/
+
+# setup.py is auto generated so...
+setup.py
