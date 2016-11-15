@@ -1,8 +1,11 @@
 {
   "name": "parsecomb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a parser combinator library",
-  "keywords" : [ "parser", "combinator" ],
+  "keywords": [
+    "parser",
+    "combinator"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/maambmb/parse-comb.git"
@@ -14,6 +17,8 @@
     "ejs": "^2.5.2",
     "gulp": "^3.9.1",
     "gulp-release-it": "^1.1.2",
-    "require-uncached": "^1.0.3"
+    "gulp-shell": "^0.5.2",
+    "require-uncached": "^1.0.3",
+    "underscore": "^1.8.3"
   }
 }
