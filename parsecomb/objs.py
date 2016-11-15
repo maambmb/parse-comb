@@ -1,3 +1,4 @@
+
 class Result():
     def __init__(self,**args):
         self.error = args.get( "error" )
