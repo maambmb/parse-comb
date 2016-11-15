@@ -9,7 +9,7 @@ function releaseFn( increment ) {
         "increment" : increment,
         "non-interactive" : true
     } );
-    pypi.then( () => null );
+    pypi().then( () => null );
 }
 
 gulp.task( "patch", () => releaseFn( "patch" ) );
