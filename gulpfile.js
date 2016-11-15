@@ -5,11 +5,15 @@ var release = require("release-it");
 var pypi = require("pypi-release");
 
 function releaseFn( increment ) {
-    release.execute( {
+
+    var opts = {
         "increment" : increment,
         "non-interactive" : true
-    } );
-    pypi().then( () => null );
+    };
+
+    release.execute( opts )
+        .then( () => pypi() )
+        .then( () => null );
 }
 
 gulp.task( "patch", () => releaseFn( "patch" ) );
