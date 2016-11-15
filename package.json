@@ -1,6 +1,6 @@
 {
   "name": "parsecomb",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a parser combinator library",
   "keywords": [
     "parser",
@@ -14,11 +14,6 @@
   "license": "MIT",
   "homepage": "https://github.com/maambmb/parse-comb#readme",
   "devDependencies": {
-    "ejs": "^2.5.2",
-    "gulp": "^3.9.1",
-    "gulp-release-it": "^1.1.2",
-    "gulp-shell": "^0.5.2",
-    "require-uncached": "^1.0.3",
-    "underscore": "^1.8.3"
+    "gulp-pypi": "0.0.2"
   }
 }
