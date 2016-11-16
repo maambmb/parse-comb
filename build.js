@@ -12,5 +12,4 @@ var opts = {
 };
 
 release.execute( opts )
-    .then( pypi )
-    .then( () => null );
+    .then( pypi );
