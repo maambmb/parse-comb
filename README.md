@@ -61,7 +61,7 @@ print result.extract()
 #     { 
 #       val = 17, 
 #       arg_name = "another_pos_arg"
-#     },
+#     }
 #   ]
 # }
 
