@@ -56,11 +56,11 @@ print result.extract()
 #     18,
 #     { 
 #       val = 5, 
-#       arg_name = pos_arg 
+#       arg_name = "pos_arg"
 #     },
 #     { 
 #       val = 17, 
-#       arg_name = another_pos_arg 
+#       arg_name = "another_pos_arg"
 #     },
 #   ]
 # }
