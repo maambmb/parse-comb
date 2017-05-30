@@ -14,7 +14,7 @@
   "license": "MIT",
   "homepage": "https://github.com/maambmb/parse-comb#readme",
   "devDependencies": {
-    "pypi-release": "^0.3.3",
+    "pypi-release": "^0.3.4",
     "release-it": "^2.5.1",
     "yargs": "^8.0.1"
   }
